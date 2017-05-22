@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: fcrepo-activemq
+spec:
+  containers:
+  - name: fcrepo
+    image: eu.gcr.io/pandora-framework/fcrepo
+    env:
+      - name: CATALINA_OPTS
+        value: "-Dfcrepo.home=/mnt/fcrepo-data -Dfcrepo.spring.configuration=file:/etc/spring/fcrepo-config.xml"
+
+  - name: activemq
+    image: eu.gcr.io/pandora-framework/activemq
+

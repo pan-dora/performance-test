@@ -1,0 +1,28 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: jmeter-master
+  labels:
+    name: jmeter
+    role: master
+spec:
+  replicas: 1
+  selector:
+    name: jmeter
+    role: master
+  template:
+    metadata:
+      labels:
+        name: jmeter
+        role: master
+    spec:
+      containers:
+        - name: jmeter-master
+          image: eu.gcr.io/pandora-framework/jmeter-master
+          ports:
+            - name: jmeter-p1
+              containerPort: 60000
+              protocol: TCP
+            - name: jmeter-p2
+              containerPort: 4445
+              protocol: TCP

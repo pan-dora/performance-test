@@ -1,0 +1,31 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: jmeter-server
+  labels:
+    name: jmeter
+    role: worker
+spec:
+  replicas: 2
+  selector:
+    name: jmeter
+    role: worker
+  template:
+    metadata:
+      labels:
+        name: jmeter
+        role: worker
+    spec:
+      containers:
+        - name: jmeter-server
+          image: eu.gcr.io/pandora-framework/jmeter-server
+          ports:
+            - name: jmeter-p3
+              containerPort: 1099
+              protocol: TCP
+            - name: jmeter-p4
+              containerPort: 50000
+              protocol: TCP
+            - name: jmeter-p5
+              containerPort: 4445
+              protocol: TCP

@@ -1,0 +1,168 @@
+2017-05-22 13:19:38,285 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2017-05-22 13:19:38,313 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2017-05-22 13:19:38,315 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2017-05-22 13:19:38,316 INFO o.a.j.JMeter: Setting Global property: fedora_4_server=10.0.2.6
+2017-05-22 13:19:38,317 INFO o.a.j.JMeter: Setting Global property: fedora_4_context=fcrepo/rest
+2017-05-22 13:19:38,317 INFO o.a.j.JMeter: Setting Global property: container_threads=1
+2017-05-22 13:19:38,332 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
+2017-05-22 13:19:38,332 INFO o.a.j.JMeter: Version 3.2 r1790748
+2017-05-22 13:19:38,332 INFO o.a.j.JMeter: java.version=1.8.0_121
+2017-05-22 13:19:38,332 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2017-05-22 13:19:38,332 INFO o.a.j.JMeter: os.name=Linux
+2017-05-22 13:19:38,332 INFO o.a.j.JMeter: os.arch=amd64
+2017-05-22 13:19:38,332 INFO o.a.j.JMeter: os.version=4.4.35+
+2017-05-22 13:19:38,333 INFO o.a.j.JMeter: file.encoding=UTF-8
+2017-05-22 13:19:38,333 INFO o.a.j.JMeter: Max memory     =536870912
+2017-05-22 13:19:38,337 INFO o.a.j.JMeter: Available Processors =1
+2017-05-22 13:19:38,348 INFO o.a.j.JMeter: Default Locale=English (United States)
+2017-05-22 13:19:38,352 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2017-05-22 13:19:38,352 INFO o.a.j.JMeter: JMeterHome=/opt/apache-jmeter-3.2
+2017-05-22 13:19:38,352 INFO o.a.j.JMeter: user.dir  =/opt/apache-jmeter-3.2/bin
+2017-05-22 13:19:38,352 INFO o.a.j.JMeter: PWD       =/opt/apache-jmeter-3.2/bin
+2017-05-22 13:19:38,353 INFO o.a.j.JMeter: IP: 10.0.0.5 Name: jmeter-master-pdtp6 FullName: jmeter-master-pdtp6
+2017-05-22 13:19:38,360 INFO o.a.j.s.FileServer: Default base='/opt/apache-jmeter-3.2/bin'
+2017-05-22 13:19:38,360 INFO o.a.j.s.FileServer: Set new base='/opt/apache-jmeter-3.2/bin'
+2017-05-22 13:19:38,623 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2017-05-22 13:19:38,649 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2017-05-22 13:19:38,661 INFO o.a.j.s.SaveService: Using SaveService properties version 3.2
+2017-05-22 13:19:38,679 INFO o.a.j.s.SaveService: Loading file: fedora-base.jmx
+2017-05-22 13:19:38,773 INFO o.a.j.u.BSFTestElement: Registering JMeter version of JavaScript engine as work-round for BSF-22
+2017-05-22 13:19:39,621 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-05-22 13:19:39,622 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-05-22 13:19:39,622 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-05-22 13:19:39,622 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-05-22 13:19:39,622 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2017-05-22 13:19:39,622 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2017-05-22 13:19:39,790 INFO o.a.j.JMeter: Creating summariser <summary>
+2017-05-22 13:19:39,797 INFO o.a.j.e.DistributedRunner: Configuring remote engine: 10.0.1.4
+2017-05-22 13:19:40,099 INFO o.a.j.e.DistributedRunner: Configuring remote engine: 10.0.2.7
+2017-05-22 13:19:40,215 INFO o.a.j.e.DistributedRunner: Starting remote engines
+2017-05-22 13:19:40,221 INFO o.a.j.e.DistributedRunner: Starting the test @ Mon May 22 13:19:40 GMT 2017 (1495459180216)
+2017-05-22 13:19:40,222 INFO o.a.j.e.ClientJMeterEngine: running clientengine run method
+2017-05-22 13:19:40,230 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2017-05-22 13:19:40,230 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2017-05-22 13:19:40,388 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2017-05-22 13:19:40,404 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-05-22 13:19:40,404 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-05-22 13:19:40,404 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-05-22 13:19:40,409 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-05-22 13:19:40,410 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-05-22 13:19:40,410 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-05-22 13:19:41,112 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-05-22 13:19:41,112 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-05-22 13:19:41,112 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-05-22 13:19:41,113 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-05-22 13:19:41,118 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-05-22 13:19:41,118 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-05-22 13:19:41,119 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-05-22 13:19:41,120 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-05-22 13:19:42,227 INFO o.a.j.e.ClientJMeterEngine: sent test to 10.0.2.7 basedir='.'
+2017-05-22 13:19:42,228 INFO o.a.j.e.ClientJMeterEngine: Sending properties {container_threads=1, fedora_4_server=10.0.2.6, fedora_4_context=fcrepo/rest}
+2017-05-22 13:19:42,251 INFO o.a.j.e.ClientJMeterEngine: sent run command to 10.0.2.7
+2017-05-22 13:19:42,252 INFO o.a.j.e.ClientJMeterEngine: running clientengine run method
+2017-05-22 13:19:42,253 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-05-22 13:19:42,254 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-05-22 13:19:42,254 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-05-22 13:19:42,254 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-05-22 13:19:42,254 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-05-22 13:19:42,254 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-05-22 13:19:42,281 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-05-22 13:19:42,281 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-05-22 13:19:42,281 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-05-22 13:19:42,282 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-05-22 13:19:42,282 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-05-22 13:19:42,282 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-05-22 13:19:42,288 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-05-22 13:19:42,288 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-05-22 13:19:42,443 INFO o.a.j.r.ResultCollector: Folder at /opt/apache-jmeter-3.2/bin/${LOG_DIRECTORY} was created
+2017-05-22 13:19:42,571 INFO o.a.j.JMeter: Started remote host:  10.0.2.7 (1495459182571)
+2017-05-22 13:19:43,339 INFO o.a.j.e.ClientJMeterEngine: sent test to 10.0.1.4 basedir='.'
+2017-05-22 13:19:43,340 INFO o.a.j.e.ClientJMeterEngine: Sending properties {container_threads=1, fedora_4_server=10.0.2.6, fedora_4_context=fcrepo/rest}
+2017-05-22 13:19:43,354 INFO o.a.j.e.ClientJMeterEngine: sent run command to 10.0.1.4
+2017-05-22 13:19:43,355 INFO o.a.j.e.DistributedRunner: Remote engines have been started
+2017-05-22 13:19:43,650 INFO o.a.j.JMeter: Started remote host:  10.0.1.4 (1495459183650)
+2017-05-22 13:19:45,613 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2017-05-22 13:19:45,613 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2017-05-22 13:19:45,613 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2017-05-22 13:19:45,615 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2017-05-22 13:20:30,545 INFO o.a.j.r.Summariser: summary +    403 in 00:00:48 =    8.4/s Avg:   151 Min:    43 Max:  2017 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:21:01,052 INFO o.a.j.r.Summariser: summary +    700 in 00:00:31 =   22.9/s Avg:    75 Min:    25 Max:   422 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:21:01,059 INFO o.a.j.r.Summariser: summary =   1103 in 00:01:18 =   14.1/s Avg:   102 Min:    25 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:21:31,930 INFO o.a.j.r.Summariser: summary +   1000 in 00:00:31 =   32.4/s Avg:    54 Min:     8 Max:   430 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:21:31,933 INFO o.a.j.r.Summariser: summary =   2103 in 00:01:49 =   19.2/s Avg:    79 Min:     8 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:22:00,971 INFO o.a.j.r.Summariser: summary +   1000 in 00:00:29 =   34.4/s Avg:    50 Min:     5 Max:   906 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:22:00,974 INFO o.a.j.r.Summariser: summary =   3103 in 00:02:18 =   22.4/s Avg:    70 Min:     5 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:22:30,587 INFO o.a.j.r.Summariser: summary +    900 in 00:00:30 =   30.4/s Avg:    54 Min:     7 Max:   502 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:22:30,588 INFO o.a.j.r.Summariser: summary =   4003 in 00:02:48 =   23.8/s Avg:    66 Min:     5 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:23:01,152 INFO o.a.j.r.Summariser: summary +   1100 in 00:00:31 =   36.0/s Avg:    48 Min:    15 Max:   537 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:23:01,153 INFO o.a.j.r.Summariser: summary =   5103 in 00:03:19 =   25.7/s Avg:    63 Min:     5 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:23:34,201 INFO o.a.j.r.Summariser: summary +   1100 in 00:00:33 =   33.3/s Avg:    48 Min:     7 Max:   536 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:23:34,202 INFO o.a.j.r.Summariser: summary =   6203 in 00:03:52 =   26.8/s Avg:    60 Min:     5 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:24:01,788 INFO o.a.j.r.Summariser: summary +   1000 in 00:00:28 =   36.2/s Avg:    46 Min:     9 Max:   502 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:24:01,795 INFO o.a.j.r.Summariser: summary =   7203 in 00:04:19 =   27.8/s Avg:    58 Min:     5 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:24:32,132 INFO o.a.j.r.Summariser: summary +   1200 in 00:00:30 =   39.5/s Avg:    43 Min:     7 Max:   653 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:24:32,134 INFO o.a.j.r.Summariser: summary =   8403 in 00:04:50 =   29.0/s Avg:    56 Min:     5 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:25:01,144 INFO o.a.j.r.Summariser: summary +   1000 in 00:00:29 =   34.5/s Avg:    44 Min:    13 Max:   533 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:25:01,148 INFO o.a.j.r.Summariser: summary =   9403 in 00:05:19 =   29.5/s Avg:    55 Min:     5 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:25:35,336 INFO o.a.j.r.Summariser: summary +   1000 in 00:00:34 =   29.2/s Avg:    55 Min:     2 Max:   676 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:25:35,337 INFO o.a.j.r.Summariser: summary =  10403 in 00:05:53 =   29.5/s Avg:    55 Min:     2 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:26:00,361 INFO o.a.j.r.Summariser: summary +    800 in 00:00:25 =   32.0/s Avg:    53 Min:    14 Max:   781 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:26:00,362 INFO o.a.j.r.Summariser: summary =  11203 in 00:06:18 =   29.7/s Avg:    55 Min:     2 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:26:31,030 INFO o.a.j.r.Summariser: summary +   1100 in 00:00:31 =   35.9/s Avg:    48 Min:     2 Max:   547 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:26:31,032 INFO o.a.j.r.Summariser: summary =  12303 in 00:06:48 =   30.1/s Avg:    54 Min:     2 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:27:03,660 INFO o.a.j.r.Summariser: summary +   1100 in 00:00:33 =   33.7/s Avg:    47 Min:     4 Max:   502 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:27:03,662 INFO o.a.j.r.Summariser: summary =  13403 in 00:07:21 =   30.4/s Avg:    53 Min:     2 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:27:33,303 INFO o.a.j.r.Summariser: summary +   1000 in 00:00:30 =   33.7/s Avg:    49 Min:     5 Max:   603 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:27:33,306 INFO o.a.j.r.Summariser: summary =  14403 in 00:07:51 =   30.6/s Avg:    53 Min:     2 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:28:01,310 INFO o.a.j.r.Summariser: summary +    900 in 00:00:28 =   32.1/s Avg:    53 Min:    14 Max:   586 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:28:01,312 INFO o.a.j.r.Summariser: summary =  15303 in 00:08:19 =   30.7/s Avg:    53 Min:     2 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:28:32,097 INFO o.a.j.r.Summariser: summary +    900 in 00:00:31 =   29.2/s Avg:    54 Min:     2 Max:   626 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:28:32,098 INFO o.a.j.r.Summariser: summary =  16203 in 00:08:50 =   30.6/s Avg:    53 Min:     2 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:29:02,373 INFO o.a.j.r.Summariser: summary +    900 in 00:00:30 =   29.7/s Avg:    56 Min:     3 Max:   658 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:29:02,375 INFO o.a.j.r.Summariser: summary =  17103 in 00:09:20 =   30.6/s Avg:    53 Min:     2 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:29:31,440 INFO o.a.j.r.Summariser: summary +    800 in 00:00:29 =   27.5/s Avg:    60 Min:     5 Max:   580 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:29:31,441 INFO o.a.j.r.Summariser: summary =  17903 in 00:09:49 =   30.4/s Avg:    54 Min:     2 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:30:03,762 INFO o.a.j.r.Summariser: summary +    800 in 00:00:32 =   24.8/s Avg:    64 Min:     8 Max:   743 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:30:03,765 INFO o.a.j.r.Summariser: summary =  18703 in 00:10:21 =   30.1/s Avg:    54 Min:     2 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:30:35,711 INFO o.a.j.r.Summariser: summary +    800 in 00:00:32 =   25.0/s Avg:    68 Min:    19 Max:   646 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:30:35,713 INFO o.a.j.r.Summariser: summary =  19503 in 00:10:53 =   29.9/s Avg:    55 Min:     2 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:31:30,164 INFO o.a.j.r.Summariser: summary +   1400 in 00:00:54 =   25.7/s Avg:    66 Min:     2 Max:   789 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:31:30,166 INFO o.a.j.r.Summariser: summary =  20903 in 00:11:48 =   29.5/s Avg:    55 Min:     2 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:32:03,510 INFO o.a.j.r.Summariser: summary +    800 in 00:00:33 =   24.0/s Avg:    70 Min:    17 Max:   567 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:32:03,511 INFO o.a.j.r.Summariser: summary =  21703 in 00:12:21 =   29.3/s Avg:    56 Min:     2 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:32:30,327 INFO o.a.j.r.Summariser: summary +    700 in 00:00:27 =   26.1/s Avg:    71 Min:     2 Max:   737 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:32:30,328 INFO o.a.j.r.Summariser: summary =  22403 in 00:12:48 =   29.2/s Avg:    56 Min:     2 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:33:02,406 INFO o.a.j.r.Summariser: summary +    700 in 00:00:32 =   21.8/s Avg:    69 Min:     2 Max:   550 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:33:02,407 INFO o.a.j.r.Summariser: summary =  23103 in 00:13:20 =   28.9/s Avg:    57 Min:     2 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:33:30,319 INFO o.a.j.r.Summariser: summary +    700 in 00:00:28 =   25.1/s Avg:    76 Min:    18 Max:   694 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:33:30,320 INFO o.a.j.r.Summariser: summary =  23803 in 00:13:48 =   28.8/s Avg:    57 Min:     2 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:34:01,402 INFO o.a.j.r.Summariser: summary +    700 in 00:00:31 =   22.5/s Avg:    77 Min:     2 Max:   724 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:34:01,403 INFO o.a.j.r.Summariser: summary =  24503 in 00:14:19 =   28.5/s Avg:    58 Min:     2 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:34:31,989 INFO o.a.j.r.Summariser: summary +    700 in 00:00:31 =   22.9/s Avg:    74 Min:     2 Max:   632 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:34:31,990 INFO o.a.j.r.Summariser: summary =  25203 in 00:14:49 =   28.3/s Avg:    58 Min:     2 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:35:00,815 INFO o.a.j.r.Summariser: summary +    700 in 00:00:29 =   24.3/s Avg:    75 Min:    16 Max:   589 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:35:00,816 INFO o.a.j.r.Summariser: summary =  25903 in 00:15:18 =   28.2/s Avg:    59 Min:     2 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:35:33,479 INFO o.a.j.r.Summariser: summary +    700 in 00:00:33 =   21.4/s Avg:    80 Min:     2 Max:   545 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:35:33,480 INFO o.a.j.r.Summariser: summary =  26603 in 00:15:51 =   28.0/s Avg:    59 Min:     2 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:36:00,924 INFO o.a.j.r.Summariser: summary +    600 in 00:00:27 =   21.9/s Avg:    79 Min:     3 Max:   640 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:36:00,932 INFO o.a.j.r.Summariser: summary =  27203 in 00:16:18 =   27.8/s Avg:    60 Min:     2 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:36:30,495 INFO o.a.j.r.Summariser: summary +    700 in 00:00:30 =   23.7/s Avg:    82 Min:    17 Max:   842 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:36:30,501 INFO o.a.j.r.Summariser: summary =  27903 in 00:16:48 =   27.7/s Avg:    60 Min:     2 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:37:03,857 INFO o.a.j.r.Summariser: summary +    700 in 00:00:33 =   21.0/s Avg:    82 Min:     2 Max:   601 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:37:03,858 INFO o.a.j.r.Summariser: summary =  28603 in 00:17:21 =   27.5/s Avg:    61 Min:     2 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:37:32,563 INFO o.a.j.r.Summariser: summary +    600 in 00:00:29 =   20.9/s Avg:    83 Min:     3 Max:   652 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:37:32,564 INFO o.a.j.r.Summariser: summary =  29203 in 00:17:50 =   27.3/s Avg:    61 Min:     2 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:38:01,180 INFO o.a.j.r.Summariser: summary +    600 in 00:00:29 =   21.0/s Avg:    88 Min:    20 Max:   557 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:38:01,181 INFO o.a.j.r.Summariser: summary =  29803 in 00:18:19 =   27.1/s Avg:    62 Min:     2 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:38:30,166 INFO o.a.j.r.Summariser: summary +    600 in 00:00:29 =   20.7/s Avg:    86 Min:     2 Max:   628 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:38:30,167 INFO o.a.j.r.Summariser: summary =  30403 in 00:18:48 =   27.0/s Avg:    62 Min:     2 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:39:01,767 INFO o.a.j.r.Summariser: summary +    700 in 00:00:32 =   22.2/s Avg:    83 Min:     2 Max:   602 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:39:01,768 INFO o.a.j.r.Summariser: summary =  31103 in 00:19:19 =   26.8/s Avg:    63 Min:     2 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:39:30,417 INFO o.a.j.r.Summariser: summary +    500 in 00:00:29 =   17.5/s Avg:    94 Min:    31 Max:   699 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:39:30,432 INFO o.a.j.r.Summariser: summary =  31603 in 00:19:48 =   26.6/s Avg:    63 Min:     2 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:40:02,578 INFO o.a.j.r.Summariser: summary +    600 in 00:00:32 =   18.7/s Avg:    94 Min:     2 Max:   646 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:40:02,581 INFO o.a.j.r.Summariser: summary =  32203 in 00:20:20 =   26.4/s Avg:    64 Min:     2 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:41:00,905 INFO o.a.j.r.Summariser: summary +   1100 in 00:00:58 =   18.9/s Avg:    99 Min:     4 Max:   835 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:41:00,906 INFO o.a.j.r.Summariser: summary =  33303 in 00:21:18 =   26.1/s Avg:    65 Min:     2 Max:  2017 Err:     0 (0.00%)
+2017-05-22 13:41:30,993 INFO o.a.j.r.Summariser: summary +    500 in 00:00:30 =   16.6/s Avg:    97 Min:    29 Max:   629 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-05-22 13:41:30,994 INFO o.a.j.r.Summariser: summary =  33803 in 00:21:48 =   25.8/s Avg:    65 Min:     2 Max:  2017 Err:     0 (0.00%)

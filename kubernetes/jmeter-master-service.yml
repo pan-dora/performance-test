@@ -1,0 +1,29 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: jmeter-master
+  labels:
+    name: jmeter
+    role: master
+spec:
+  ports:
+    - port: 60000
+      targetPort: jmeter-p1
+      protocol: TCP
+      name: jmeter-p1
+    - port: 4445
+      targetPort: jmeter-p2
+      protocol: TCP
+      name: jmeter-p2
+    - port: 1099
+      targetPort: jmeter-p3
+      protocol: TCP
+      name: jmeter-p3
+    - port: 50000
+      targetPort: jmeter-p4
+      protocol: TCP
+      name: jmeter-p4
+  selector:
+    name: jmeter
+    role: master
+  type: LoadBalancer
