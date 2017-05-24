@@ -6,7 +6,7 @@ metadata:
     name: jmeter
     role: worker
 spec:
-  replicas: 2
+  replicas: 5
   selector:
     name: jmeter
     role: worker

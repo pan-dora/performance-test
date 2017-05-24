@@ -6,4 +6,4 @@
     --zone europe-west1-b --project pandora-framework`
     
 ## Open Kubernetes
-`kubectl proxy` @ http://localhost:8001
+`kubectl proxy` @ http://localhost:8001/ui

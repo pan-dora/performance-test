@@ -4,7 +4,7 @@
 `kubectl get pods`
 
 ### Connect to Jmeter master
-`kubectl exec -ti jmeter-master-b4bkx -- /bin/bash`
+`kubectl exec -ti jmeter-master-dp6jc -- /bin/bash`
 
 ### Get IP Address of Pod
 `kubectl describe pods fcrepo-activemq | grep IP`
